@@ -1,0 +1,198 @@
+.main{
+background-color:#F7F5F9;
+display: flex;
+height: 599px;
+width:100% ;
+}
+
+.intro{
+    flex-basis: 1/2;
+    flex-grow: 1;
+}
+
+.heading{
+font-size: 36px;
+font-style: italic;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0.02em;
+position: absolute;
+top: 20%;
+left: 7%;
+}
+.hobby{
+    color:#0096C8;
+}
+.passion{
+    color: #8064A2;
+}
+
+.text1{
+font-size: 14px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0.02em;
+text-align: left;
+position: absolute;
+top: 30%;
+left: 7%;
+}
+
+.text2{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    }
+
+.content{
+    width: 707px;
+    height: 578px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;    
+}
+
+.Signup{
+ flex-basis: 1/2;
+position: relative;
+flex-grow: 1;
+max-width: 900px;
+min-width: 600px;
+}
+
+.Signup-container{
+    position: absolute;
+    width:50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.google{
+width:10%;
+height:20px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+margin-right: 4%;
+}
+
+
+.span-google{
+    font-size: 85%;
+    font-weight:600;
+    line-height:16px;
+    color: black;
+    text-align:center;
+}
+
+.btn-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+  display: inline;
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  outline: none;
+  offset: none;
+  background-color: #F7F5F9;
+  border: 1px solid;
+  border-color: gray;
+
+  border-radius: 5px;
+  
+}
+.horizontal-line{
+    width: 50%;
+    height: 2px;
+    max-height: 2px;
+    top: 8px;
+    left: 262px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.horizontal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Email-input{
+    width: 100%;
+    height: 40px;
+    padding: 12px 0px 12px 12px;
+    gap: 10px;
+    outline: none;
+    offset: none;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid;
+    border-color: rgb(205, 200, 200);
+    opacity: 0px;
+    margin-bottom:20px;
+
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-signup{
+    display: flex;
+    
+}
+
+.signup-tab{
+margin-right: 15px;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+}
+
+.people-img{
+    position: absolute;
+  top: 50%;
+  left: -3%;
+}
+
+/* responsize */
+
+@media (max-width: 1117px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+         height: 1000px;
+         width: max-content;
+        }
+    
+        .Signup{
+             top: -22%;
+           }
+
+           .intro{
+           justify-content: center;
+           align-items: center; 
+        }
+
+        .people-img{
+          position: absolute;
+          top: 125%;
+          left:-75px;
+        }
+
+  }
+
+  

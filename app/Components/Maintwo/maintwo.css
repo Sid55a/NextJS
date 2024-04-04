@@ -1,0 +1,69 @@
+.main-grid{
+
+display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+  grid-gap: 10px; /* Gap between grid items */
+}
+
+.cart{
+gap: 0px;
+border-radius: 8px 8px 8px 8px;
+    margin: 5%;
+    width:608px;
+    height:297px;
+    border: 2px solid gray; /* Border style: 2px width, solid line, black color */
+    padding: 10px; /* Optional: Add padding for spacing */
+    opacity: 0px;
+    padding: 2px;
+}
+
+.cart-heading{
+display: flex;
+font-size: 24px;
+font-weight: 600px;
+line-height: 36px;
+text-align: left;
+margin-top: 5%;
+padding-left: 5%;
+}
+
+.people{
+width: 40px;
+height: 30px;
+top: 10px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 300px;
+    line-height: 27px;
+    text-align: left;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.button-people{
+    margin-top: 5%;
+    padding-left: 5%;
+    background-color: white;
+}
+
+
+
+/* responsize */
+
+@media (max-width: 1117px) {
+   
+    .main-grid{
+       display: flex;
+       flex-direction: column;
+       margin-top: 20%;
+    }
+    
+  }

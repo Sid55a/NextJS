@@ -1,0 +1,232 @@
+.footer{
+height: 380px;
+top: 3391px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+padding: 5%;
+gap: 10%;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1/5;
+
+}
+
+.row-two{
+    flex-basis: 2/5;
+    margin-left: 5%;
+
+}
+
+.footerheading{
+   font-weight: bold;
+}
+
+.social-media{
+  font-weight:bold;
+  font-size: 80%;
+  text-align: left;
+}
+
+.social-icons{
+    display: flex;
+    gap: 5%;
+    margin-top: 10%;
+}
+
+.iconSocial{
+    width: 100%;
+    height: 20%;
+}
+
+.iconSocial{
+width: 100%;
+height: 24px;
+top: 94px;
+left: 959px;
+gap: 0px;
+opacity: 0px;
+}
+
+.invite{
+    width: 50%;
+    height: 40px;
+    gap: 0px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+    margin-top:20%;
+}
+
+.footer-input{
+    width: 450px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    outline: none;
+    offset: none;
+    border: 1px solid #8064A2;
+    padding:10px;
+
+}
+.invitebutton{
+    width: 59px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 0px;
+    background-color:#8064A2 ;
+    position: absolute;
+    top:0;
+    right:-280px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    display: flex;
+    outline: none;
+    offset: none;
+    border: 1px solid #8064A2
+}
+
+
+
+
+/* responsive */
+/* 1117 */
+
+@media (max-width: 1117px) {
+    .invite{
+        height: 40px;
+        gap: 0px;
+        border-radius: 0px 8px 8px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        margin-top:20%;
+        
+    }
+    
+    
+.row{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1/5;
+    font-size: 8px;
+
+}
+    .footer-input{
+        width: 200px;
+        height: 40px;
+        gap: 0px;
+        border-radius: 8px 8px 8px 8px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        outline: none;
+        offset: none;
+        border: 1px solid #8064A2;
+        padding:10px;
+    
+    }
+    .invitebutton{
+        width: 40px;
+        height: 40px;
+        border-radius: 0px 8px 8px 0px;
+        opacity: 0px;
+        margin-right: 150%;
+        background-color:#8064A2 ;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding-top: 5px;
+        display: flex;
+        outline: none;
+        offset: none;
+        border: 1px solid #8064A2
+    }
+}
+
+@media (max-width: 500px) {
+  
+    .social-media{
+        font-weight:bold;
+        font-size: 80%;
+        text-align: left;
+        margin-left: 30%;
+      }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+      .social-icons{
+          margin-left: 30%;
+          
+      }
+      
+      .iconSocial{
+          width: 100%;
+          height:20%;
+      }
+      
+      .iconSocial{
+      width: 100%;
+      height: 24px;
+      top: 94px;
+      left: 959px;
+      gap: 0px;
+      opacity: 0px;
+
+      }
+      
+      .invite{
+          width: 50%;
+          height: 40px;
+          gap: 0px;
+          border-radius: 0px 8px 8px 0px;
+          border: 1px 0px 0px 0px;
+          opacity: 0px;
+          position: relative;
+          margin-top:20%;
+          margin-left: 30%;
+      }
+      
+      .footer-input{
+          width: 450px;
+          height: 40px;
+          gap: 0px;
+          border-radius: 8px 8px 8px 8px;
+          border: 1px 0px 0px 0px;
+          opacity: 0px;
+          outline: none;
+          offset: none;
+          border: 1px solid #8064A2;
+          padding:10px;
+      
+      }
+      .invitebutton{
+          width: 59px;
+          height: 40px;
+          gap: 0px;
+          border-radius: 0px 8px 8px 0px;
+          opacity: 0px;
+          background-color:#8064A2 ;
+          position: absolute;
+          top:0;
+          margin-right: 20%;
+          color: white;
+          text-align: center;
+          justify-content: center;
+          padding-top: 5px;
+          display: flex;
+          outline: none;
+          offset: none;
+          border: 1px solid #8064A2
+      }
+
+  }

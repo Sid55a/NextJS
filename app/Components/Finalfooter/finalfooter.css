@@ -1,0 +1,21 @@
+.finalfooter{
+height: 78px;
+background-color: #F7F5F9;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media (max-width: 500px){
+
+    .finalfooter{
+        width: 745px;
+        height: 78px;
+        background-color: #F7F5F9;
+        display: flex;
+        margin-top: 50%;
+        justify-content: center;
+        align-items: center;
+        }
+
+}
