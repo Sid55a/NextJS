@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import { Search } from "lucide-react";
+import React from 'react';
 import './Navbar.css';
-import React from 'react'
-import {Search,Compass,Bookmark,Shoping,Bell} from "lucide-react"
 export const Navbar = () => {
   return (
     <nav class="navbar nav navbar-expand-lg navbar-light ">
